@@ -25,7 +25,7 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  top: 20vh;
+  top: 15vh;
 }
 
 .one {
@@ -45,13 +45,11 @@ body {
   border: 3px solid #aaa;
   border-radius: 5px;
   margin: 0 auto;
-  padding: 10px;
   position: relative;
-  width: 600px;
+  max-width: 600px;
 }
 
 .text-box p {
-  margin: 0;
   text-align: left;
 }
 
@@ -83,15 +81,15 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: calc(1vw + 3rem);
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.five .idea-5 span, .idea-6 span, .wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
-  font-size: 15rem;
+.five .idea-6 span{
+  font-size: calc(1vw + 3rem);
 }
 
 
